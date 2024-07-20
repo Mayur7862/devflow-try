@@ -3,8 +3,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='h1-bold'>
-      Jai shree Krishna
+    <div>
+    <UserButton afterSignOutUrl='/' />
     </div>
   )
 }
